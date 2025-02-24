@@ -1,0 +1,26 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000000; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ff69b4; 
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff1493; 
+    color: #ffffff; 
+}
+
+td {
+    background-color: #ffc0cb; 
+    color: #000000; 
+}
