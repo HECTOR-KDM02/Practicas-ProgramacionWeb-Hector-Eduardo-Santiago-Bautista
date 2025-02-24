@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #000000; 
+}
+
+.parrafo-princpal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #ff1493; 
+}
+
+.imagenes {
+    width: 250px;
+    height: 250px;
+    border-radius: 34%;
+    border: 3px solid #ff69b4; 
+}
