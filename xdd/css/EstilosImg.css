@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: #000000; 
+}
+
+.Parte2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ff69b4; 
+}
+
+.Parte1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #d63384; 
+}
+
+.imgM {
+    width: 250px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.imgMS {
+    width: 250px;
+    height: 500px;
+    border-radius: 34%;
+}
