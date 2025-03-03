@@ -3,14 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Row</title>
+    <style>
+        .btn-css1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-css1:hover {
+            background-color: #45a049;
+        }
+        .btn-css2 {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-css2:hover {
+            background-color: #007bb5;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-4">
 
-        <div class="row">
+        <div class="row mt-4">
             <h1 class="text-center mb-4">Uso del row</h1>
 
             <div class="col-md-6">
@@ -20,8 +43,7 @@
                     </div>
                     <div class="card-body text-center">
                         <img src="1.jpeg" class="img-fluid mb-3" alt="Imagen 1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laborum soluta consectetur neque distinctio inventore, magnam modi debitis nemo tenetur dicta velit, exercitationem laudantium odit incidunt. Eum amet ut laudantium.
-                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, similique minus? Accusamus nesciunt totam quia corporis? Maiores minus, delectus eos ipsum distinctio officiis non ea fugit, debitis autem dignissimos! Porro.</p>
                     </div>
                 </div>
             </div>
@@ -33,12 +55,82 @@
                     </div>
                     <div class="card-body text-center">
                         <img src="2.jpeg" class="img-fluid mb-3" alt="Imagen 2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laborum soluta consectetur neque distinctio inventore, magnam modi debitis nemo tenetur dicta velit, exercitationem laudantium odit incidunt. Eum amet ut laudantium.
-                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorum ut ipsam facilis at nam expedita, quisquam obcaecati ipsum cupiditate est ea mollitia omnis reiciendis deserunt perferendis. Soluta, esse omnis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="text-center">Botones CSS</h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <button class="btn-css1">Botón 1</button>
+                        <button class="btn-css2">Botón 2</button>
                     </div>
                 </div>
             </div>
 
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="text-center">Botones Bootstrap</h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <button class="btn btn-primary">Botón Bootstrap 1</button>
+                        <button class="btn btn-danger">Botón Bootstrap 2</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        
+                    </div>
+                    <div class="card-body text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="text-center">Icono 1</h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <span class="icon icon1">★</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="text-center">Icono 2</h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <span class="icon icon2">❤</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div style="background-color:aqua; color:black  ;" class="card-header">
+                        <h6 class="text-center">Tercer CARD</h6>
+                    </div>
+                    <div class="card-body text-center">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ea velit maiores eaque. Dolor totam, officia fugit expedita tempora placeat dolorum. Cupiditate commodi animi ut optio voluptatem ratione ea non?
+                            </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
